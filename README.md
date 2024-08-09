@@ -28,7 +28,10 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
      cd apptodo
      cd backend
      composer install
+     <!-- konfigurasi file .env -->
+     cp .env.example .env
      php artisan migrate
+     php artisan key:generate
      ```
 
 ### Frontend (Vue)
@@ -39,6 +42,7 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
      cd apptodo
      cd forntend
      npm install
+     npm install axios
 
      ```
 
