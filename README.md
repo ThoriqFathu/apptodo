@@ -17,7 +17,7 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 -    **Clone Repository:**
 
      ```bash
-     git clone https://github.com/ThoriqFathu/ToDoList-App.git
+     git clone https://github.com/ThoriqFathu/apptodo.git
      ```
 
 ### Backend (Laravel)
