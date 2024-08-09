@@ -25,7 +25,7 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 -    **Set up backend:**
 
      ```bash
-     cd ToDoList-App
+     cd apptodo
      cd backend
      composer install
      php artisan migrate
@@ -36,10 +36,9 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 -    **Set up forntend:**
 
      ```bash
-     cd ToDoList-App
+     cd apptodo
      cd forntend
      npm install
-     php artisan migrate
 
      ```
 
@@ -55,7 +54,7 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 2. **Menjalankan server Vue (frontend):**
 
      ```bash
-     php artisan serve
+     npm run serve
 
      ```
 
